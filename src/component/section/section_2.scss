@@ -1,0 +1,253 @@
+.onetxt2_box{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 40px;
+    .box_tab{
+        width: 100%;
+        height: 50px;
+        background: #fff;
+        position: relative;
+        .tab{
+            float: left;
+            width: 171px;
+            height: 47px;
+            line-height: 47px;
+            text-align: center;
+            margin-right: 0px;
+            margin-left: 199px;
+            font-size: 16px;
+            font-weight: bolder;
+            cursor: pointer;
+            color: #999;
+            &:nth-child(1){
+                margin-left: 90px;
+                color:#60d2d6;
+            }
+        }
+        .scroll{
+            width: 171px;
+            height: 2px;  
+            background: #60d2d6; 
+            position:absolute;
+            bottom: 0px;
+            left: 90px;
+            transition: all 0.2s;
+        }
+    }
+    .tab_txt{
+        float: left;
+        width: 100%;
+        height: 1150px;
+        &>img{
+            font-size: 0;
+        }
+        .ul1{
+            margin: 0;
+            padding: 0;
+            li{
+                list-style: none;
+                width: 250px;
+                height: 464px;
+                float: left;
+                border: 2px solid #fff;
+                background: #fff;
+                margin: 0 10px 20px 10px;
+                &>a>img{
+                    width: 250px;
+                    height: 220px;
+                }
+                &:hover{
+                    border-color:#60d2d6;
+                }
+                .middle_right{
+                    width: 210px;
+                    height: 200px;
+                    padding: 0 20px 0 20px;
+                    color: #000;
+                    float: right;
+                    .right_name{
+                       font-size: 18px;
+                       font-weight: bold;
+                    }
+                    .right_ename{
+                        font-size: 14px;
+                        color:#999;
+                    }
+                    .right_swt{
+                        font-weight: bold;
+                        font-size: 14px;
+                        margin-top: 20px;
+                        margin-bottom: 15px;
+                        height: 20px;
+                        line-height: 20px;
+                        p{
+                            float: left;
+                            margin: 0;
+                        }
+                        .name2{
+                           float: right;
+                           font-size: 16px;
+                       }
+                    }
+                    .right_detail {
+                        font-size: 10px;
+                        color: #999;
+                        overflow: hidden;
+                        line-height: 18px;
+                        margin-bottom: 5px;
+                    }
+                    .right_price{
+                        line-height: 28px;
+                        font-weight: bold;
+                        margin-top: 15px;
+                        height: 33px;
+                        .price1{
+                            display: block;
+                            float: left;
+                            vertical-align: text-bottom
+                        }
+                        .price2{
+                            display: block;
+                            margin-top: 3px;
+                            margin-left: 5px;
+                            font-size:28px;
+                            float: left;
+                        }
+                    }
+                    .right_btn{
+                        margin-top:13px;
+                        .btn_add{
+                            width: 100px;
+                            height: 27px;
+                            line-height: 25px;
+                            text-align: center;
+                            font-size: 16px;
+                            border: 1px solid #000;
+                            cursor: pointer;
+                            float: left;
+                        }
+                        .btn_reomve{
+                            width: 100px;
+                            height: 27px;
+                            line-height: 25px;
+                            text-align: center;
+                            font-size: 16px;
+                            border: 1px solid #000;
+                            cursor: pointer;
+                            float: right;
+                        }
+                        &>div:hover{
+                            background: #fe575f;
+                            color: #fff;
+                            border-color: #fe575f;
+                        }
+                    }
+                }
+            }
+            &>li:nth-child(1),&>li:nth-child(6){
+                width: 524px;
+                &>a>img{
+                    width:524px;
+                    height: 300px;
+                }
+                .middle_right{
+                    width: 485px;
+                    height: 155px;
+                    padding: 0 20px 0 20px;
+                    color: #000;
+                    float: right;
+                    position: relative;
+                    .right_name{
+                       font-size: 18px;
+                       font-weight: bold;
+                    }
+                    .right_ename{
+                        font-size: 14px;
+                        color:#999;
+                        margin-top: 8px;
+                    }
+                    .right_swt{
+                        font-weight: bold;
+                        font-size: 14px;
+                        margin: 0;
+                        height: 20px;
+                        line-height: 20px;
+                        width: 200px;
+                        position: absolute;
+                        right: 22px;
+                        top: 0;
+                        p{
+                            float: left;
+                            margin: 0;
+                        }
+                        .name2{
+                           float: right;
+                           font-size: 16px;
+                       }
+                    }
+                    .right_detail {
+                        width: 200px;
+                        font-size: 10px;
+                        color: #999;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        margin-bottom: 5px;
+                    }
+                    .right_price{
+                        line-height: 28px;
+                        font-weight: bold;
+                        margin-top: 35px;
+                        height: 54px;
+                        .price1{
+                            display: block;
+                            float: left;
+                            vertical-align: text-bottom
+                        }
+                        .price2{
+                            display: block;
+                            margin-top: 3px;
+                            margin-left: 5px;
+                            font-size: 28px;
+                            float: left;
+                        }
+                    }
+                    .right_btn{
+                        margin-top: 15px;
+                        width: 220px;
+                        position: absolute;
+                        bottom: 10px;
+                        right: 10px;
+                        .btn_add{
+                            width: 100px;
+                            height: 27px;
+                            line-height: 25px;
+                            text-align: center;
+                            font-size: 16px;
+                            border: 1px solid #000;
+                            cursor: pointer;
+                            float: left;
+                        }
+                        .btn_reomve{
+                            width: 100px;
+                            height: 27px;
+                            line-height: 25px;
+                            text-align: center;
+                            font-size: 16px;
+                            border: 1px solid #000;
+                            cursor: pointer;
+                            float: right;
+                        }
+                        &>div:hover{
+                            background: #fe575f;
+                            color: #fff;
+                            border-color: #fe575f;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

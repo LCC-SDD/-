@@ -1,0 +1,133 @@
+.suggest{
+	width: 1110px;
+	height: 509px;
+	margin-left: 125px;
+	margin-top: 40px;
+	overflow: hidden;
+	.suggest-left{
+		width: 745px;
+		height: 509px;
+		float: left;
+		ul{
+			width: 745px;
+			height: 509px;
+			li{
+				width: 358px;
+				height: 156px;
+				float: left;
+				background: #fff;
+				.bao{
+					width: 358px;
+					height: 156px;
+					border:1px solid #eee;
+					.img{
+					width: 190px;
+					height: 156px;
+					float: left;
+					}
+				.info{
+					width: 146px;
+					height: 156px;
+					float: left;
+					.name{
+						width: 146px;
+						height: 21px;
+						font-size: 16px;
+    					margin-top: 25px;
+					}
+					.english{
+						width: 146px;
+						height: 16px;
+						font-size: 12px;
+    					color: #999;
+    					margin-top: 5px;
+					}
+					.tian{
+						width: 146px;
+						height: 20px;
+						font-size: 14px;
+						margin-top: 10px;
+						float: left;
+						img{
+							float: right;
+						}
+					}
+					.doller{
+						width: 146px;
+						height: 31px;
+						margin-top: 45px;
+						span:nth-of-type(1){
+							width: 14px;
+							height: 19px;
+							float: left;
+							margin-top: 5px;
+						}
+						span:nth-of-type(2){
+							width: 52px;
+							height: 37px;
+							font-size: 28px;
+							float: left;
+							font-weight: bold;
+						}
+					}
+				}
+				}
+				&:hover{
+					box-shadow: 0px 0px 5px #ccc;
+				}
+			}
+			li:nth-of-type(2){
+				margin-left: 15px;
+			}
+			li:nth-of-type(4){
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+			li:nth-of-type(3){
+				margin-top: 15px;
+			}
+			li:nth-of-type(5){
+				margin-top: 15px;
+			}
+			.sive{
+				width: 358px;
+				height: 156px;
+				float: left;
+				margin-left: 15px;
+				margin-top: 17px;
+				img:hover{
+					box-shadow: 0px 0px 5px #ccc;
+				}
+			}
+		}
+	}
+	.suggest-right{
+		width: 365px;
+		height: 509px;
+		float: right;
+		.video{
+			width: 360px;
+			height: 326px;
+		}
+		.xiecheng{
+			width: 173px;
+			height: 153px;
+			outline: 1px solid #eee;
+			float: left;
+			margin-top: 20px;
+			background: url('../../assets/img/xc.jpg') center no-repeat;
+			&:hover{
+				box-shadow: 0px 0px 10px #eee;
+			}
+		}
+		.jiecai{
+			width: 173px;
+			height: 153px;
+			outline: 1px solid #eee;
+			float: left;
+			margin-top: 20px;
+			margin-left: 10px;
+			background: url('../../assets/img/yh02.jpg') center no-repeat;
+		}
+	}
+}

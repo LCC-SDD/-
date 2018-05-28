@@ -1,0 +1,39 @@
+.top{
+	width: 100%;
+	font-size: 0px;
+	position: relative;
+	.small-logo{
+		width: 100%;
+		height: 105px;
+		background: url('../../assets/img/small-banner.jpg');
+		background-size: cover; 
+	}
+	.big-logo{
+		width: 100%;
+		height: 421px;
+		background: url('../../assets/img/big-banner.jpg');
+		background-size: cover;
+		display: none;
+	}
+	.big-btn{
+		//展开
+		position: absolute;
+	    top: 0px;
+	    left: 1035px;
+	    z-index: 999;
+	    cursor: pointer;
+	    width: 52px;
+	    height: 28px;
+		background:url('../../assets/img/small-button.png');
+	}
+	.small-btn{
+		//收起
+		position: absolute;
+	    top: 0px;
+	    left: 1035px;
+	    cursor: pointer;
+	    width: 52px;
+	    height: 28px;
+		background:url('../../assets/img/big-button.png');
+	}
+}

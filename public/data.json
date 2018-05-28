@@ -1,0 +1,39 @@
+{
+	"list":[
+		{
+		"image":"/static/media/黑白配.53165c78.jpg",
+		"name":"黑白配",
+		"english":"Black and white",
+		"tian":"甜度：",
+		"doller":"198"
+	},
+	{
+		"image":"/static/media/浓情花意.59ee6d74.jpg",
+		"name":"浓情花意",
+		"english":"Love of Flower",
+		"tian":"甜度：",
+		"doller":"198"
+	},
+	{
+		"image":"/static/media/布朗尼精灵.d6ae79ae.jpg",
+		"name":"布朗尼精灵",
+		"english":"Brownie Elf",
+		"tian":"甜度：",
+		"doller":"198"
+	},
+	{
+		"image":"/static/media/金色榴莲.41dac4b4.jpg",
+		"name":"金色榴莲",
+		"english":"Durian Cake",
+		"tian":"甜度：",
+		"doller":"198"
+	},
+	{
+		"image":"/static/media/papi.56f40cb1.jpg",
+		"name":"PAPI熊蛋糕",
+		"english":"PAPI",
+		"tian":"甜度：",
+		"doller":"198"
+	}
+	]
+}
